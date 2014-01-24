@@ -1,0 +1,52 @@
+*, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+body, html { font-size: 100%; padding: 0; margin: 0;}
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 900;
+  color: white;
+  background-color: grey;
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0.5em 1em;
+  border-bottom: 10px solid white;
+}
+
+#output {
+
+  margin: 0 auto;
+  padding: 0 2em;
+  font-size: 0.8em;
+}
+
+#output dd {
+  margin: 0;
+}
+
+#generate {
+  text-decoration: none;
+  padding: 0.5em 2em;
+  font-size: 0.7em;
+  margin-top: 1em;
+}
+
+.stuffs {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.info a {
+  text-decoration: none;
+  font-size: 2em;
+  color: #3498db;
+}
+
+.everything {
+  max-width: 30em;
+  margin: 0 auto;
+}
